@@ -7,7 +7,11 @@
     		margin-bottom: 15px;
    		padding: 4px 12px;
 	}
-	.remember {
+	.note {
+    		background-color: #ffdddd;
+    		border-left: 6px solid #f44336;
+	}
+	.example {
     		background-color: #ffdddd;
     		border-left: 6px solid #f44336;
 	}
@@ -19,9 +23,30 @@
 			<hr>
 			<h2>What are attributes?</h2>
 			<p><strong>Attributes</strong> provide additional information about an element. They are special words used inside the <b><i>start tag</i></b> to control the element's behaviour. An <strong>attribute</strong> either modifies the default functionality of an element type or provides functionality to certain element types unable to function correctly without them.</p>
-			 <div class="remember">
-				 <p><strong>Remember:</strong> ALL <strong><i>html</i></strong> elements can have attributes.</p>
-			</div> 	
+			 <div class="note">
+				 <p><strong>Remember:</strong> All <strong><i>html</i></strong> elements can have attributes.</p>
+			</div>
+			<h3>Basic Attribute Types</h3>
+			<ul>
+				<li><b><i>Require Attributes</i></b></li>
+				<p>Needed by a particular element type for that element type to function correctly.</p>
+				<li><b><i>Optional Attributes</i></b></li>
+				<p>Used to modify the default functionality of an element type.</p>
+				<li><b><i>Standard Attributes</i></b></li>
+				<p>Supported by a large number of element types.</p>
+				<li><b><i>Event Attributes</i></b></li>
+				<p>Used to cause element types to specify scripts to be run under specific circumstances.</p>
+			</ul>
+			<h4>Syntax</h4>
+			<p><strong>Attributes</strong> usually come in name/value pairs, such as <b><i>name="value"</i></b>.</p>
+			<div class="example">
+				<p>Example: <a href="planet.html"></a></p>
+			</div>
+			<h5>HTML href Attribute</h5>
+			<p></p>
+			<h6>Style Attribute</h6>
+			<p>The <strong>style attribute</strong> specifies an inline style for a particular element. It will override any style set globally, such as styles specified in the <b><i><style></i></b> tag or in an external style sheet.</p>
+			<p>You can find out more about style attributes in the <a href="link goes here">CSS section</a>.</p>
 		</div>
 	</body>
 </html>
