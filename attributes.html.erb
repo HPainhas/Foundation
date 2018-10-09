@@ -112,7 +112,7 @@
 				<p><strong>&lt;img&gt; Example:</strong> Any sort of image which is marked up.</p>
 				<p>&lt;img src=&quot;helloworld.gif&quot; alt=&quot;Hello World&quot;&gt;</p>
 				<p><strong>&lt;script&gt; Example:</strong> Point to an external JavaScript file.</p>
-				<p>&lt;script src=&quot;yourscript.js&quot;&gt;&lt;/script&gt;</p>
+				<p>&lt;script src=&quot;yourscript.js&quot;&gt;</p>
 				<p><strong>&lt;source&gt; Example:</strong> Assume there is an mp3 player with two source files. The browser has to choose which file (if any) it has support for.</p>
 				<p>&lt;audio controls&gt;<br> &nbsp; &lt;source src=&quot;hello.ogg&quot; type=&quot;audio/ogg&quot;&gt;<br> &nbsp; &lt;source src=&quot;world.mp3&quot; type=&quot;audio/mpeg&quot;&gt;<br> Your browser does not support the audio element.<br> &lt;/audio&gt;</p>
 			</div>
@@ -127,14 +127,17 @@
 				<p>&lt;iframe src=&quot;/default.asp&quot; width=&quot;100&quot; height=&quot;100&quot;&gt;</p>
 			</div>
 			<h3>HTML height Attribute</h3>
-			<p>The <strong>height</strong> attribute specifies the height of the element, in pixels.</p>
+			<p>The <strong>height</strong> attribute specifies the height of the element, in pixels. In the followig examples, we used 100 pixels for the width and 200 pixels for the height.</p>
 			<div class="example">
-				<p><strong>&lt;img&gt; Example:</strong> &lt;img src=&quot;yourimage.gif&quot; alt=&quot;Your Image&quot; width=&quot;50&quot; height=&quot;50&quot;&gt;</p>
-				<p><strong>&lt;object&gt; Example:</strong> &lt;object data=&quot;youranimation.swf&quot; width=&quot;200&quot; height=&quot;200&quot;&gt;</p>
-				<p><strong>&lt;embed&gt; Example:</strong> &lt;embed src=&quot;youranimation.swf&quot; width=&quot;100&quot; height=&quot;100&quot;&gt;</p>
+				<p><strong>&lt;img&gt; Example:</strong> &lt;img src=&quot;yourimage.gif&quot; alt=&quot;Your Image&quot; width=&quot;100&quot; height=&quot;200&quot;&gt;</p>
+				<p><strong>&lt;object&gt; Example:</strong> &lt;object data=&quot;youranimation.swf&quot; width=&quot;100&quot; height=&quot;200&quot;&gt;</p>
+				<p><strong>&lt;embed&gt; Example:</strong> &lt;embed src=&quot;youranimation.swf&quot; width=&quot;100&quot; height=&quot;200&quot;&gt;</p>
 			</div>
 			<h3>HTML alt Attribute</h3>
-			<p>The <strong>alt</strong> attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).</p>
+			<p>The <strong>alt</strong> attribute provides alternative information for an image if a user for some reason cannot view it. Those reasons include: slow connection, an error in the src attribute, or users using a screen reader.</p>
+			<div class="note">
+				<p><strong>Remember:</strong> the <strong>alt</strong> attribute is required for the &lt;img&gt; element and for &lt;input&gt; elements, the <strong>alt</strong> attribute can only be used with &lt;input type=&quot;image&quot;&gt;.</p>
+			</div>
 			<div class="example">
 				<p></p>
 			</div>
