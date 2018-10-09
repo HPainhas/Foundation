@@ -17,7 +17,7 @@
 	}
 	.background {
     		background-color: #dedddd;
-    		border-left: 6px #acacac;
+    		border-left: 6px  #747474;
 	}
 	</style>
 	</head>
@@ -49,31 +49,29 @@
 			<p><strong>Attributes</strong> usually come in name/value pairs, such as <b>name="value"</b>.</p>
 			<p>The <b>name</b> is the property you want to set and <b>"value"</b> is what you want the value of the property to be set and always put within double quotes.</p>
 			<div class="example">
-				<p><strong>Example</strong>: &lt;a href=&quot;planet.html&quot;&gt; <b>or</b> &lt;h1 align="center"&gt;</p>
+				<p><strong>Example:</strong> &lt;a href=&quot;planet.html&quot;&gt; <b>or</b> &lt;h1 align="center"&gt;</p>
 			</div>
 			<div class="background">
 				<h2>&#9758; Global Attributes</h2>
 			</div>
 			<p>The following global attributes can be used on <strong>any</strong> HTML element:</p>
-			<div class="example">
-				<ul style="list-style-type:square">
-					<li><b>acceskey</b></li>
-					<li><b>class</b></li>
-					<li><b>contenteditable</b></li>
-					<li><b>data-*</b></li>
-					<li><b>dir</b></li>
-					<li><b>draggable</b></li>
-					<li><b>dropzone</b></li>
-					<li><b>hidden</b></li>
-					<li><b>id</b></li>
-					<li><b>lang</b></li>
-					<li><b>spellcheck</b></li>
-					<li><b>style</b></li>
-					<li><b>tabindex</b></li>
-					<li><b>title</b></li>
-					<li><b>translate</b></li>
-				</ul>
-			</div>
+			<ul style="list-style-type:square">
+				<li><b>acceskey</b></li>
+				<li><b>class</b></li>
+				<li><b>contenteditable</b></li>
+				<li><b>data-*</b></li>
+				<li><b>dir</b></li>
+				<li><b>draggable</b></li>
+				<li><b>dropzone</b></li>
+				<li><b>hidden</b></li>
+				<li><b>id</b></li>
+				<li><b>lang</b></li>
+				<li><b>spellcheck</b></li>
+				<li><b>style</b></li>
+				<li><b>tabindex</b></li>
+				<li><b>title</b></li>
+				<li><b>translate</b></li>
+			</ul>
 			<p>&#10145; If you would like to know more about each global attribute mentioned above click <a href="https://www.w3schools.com/tags/ref_standardattributes.asp">here</a></p>
 			<div class="background">
 				<h2>&#9758; Useful HTML attributes</h2>
@@ -83,10 +81,10 @@
 			<p>For &lt;base&gt; elements, the href attribute specifies the base URL for all relative URLs on a page.</p>
 			<p>For &lt;link&gt; elements, the href attribute specifies the location (URL) of the external resource.</p>
 			<div class="example">
-				<p><strong>&lt;a&gt; Example</strong>: &lt;a href=&quot;your URL goes here&quot;&gt;</p>
-				<p><strong>&lt;area&gt; Example</strong>: &lt;area shape=&quot;rect&quot; coords=&quot;0,0,82,126&quot; href=&quot;whatever.htm&quot; alt=&quot;Whatever&quot;&gt;</p>
-				<p><strong>&lt;base&gt; Example</strong>: &lt;base href=&quot;your URL goes here&quot;&gt;</p>
-				<p><strong>&lt;link&gt; Example</strong>: &lt;link rel=&quot;stylesheetwhatever&quot; type=&quot;text/css&quot; href=&quot;whatevertheme.css&quot;&gt;</p>
+				<p><strong>&lt;a&gt; Example:</strong> &lt;a href=&quot;your URL goes here&quot;&gt;</p>
+				<p><strong>&lt;area&gt; Example:</strong> &lt;area shape=&quot;rect&quot; coords=&quot;0,0,82,126&quot; href=&quot;whatever.htm&quot; alt=&quot;Whatever&quot;&gt;</p>
+				<p><strong>&lt;base&gt; Example:</strong> &lt;base href=&quot;your URL goes here&quot;&gt;</p>
+				<p><strong>&lt;link&gt; Example:</strong> &lt;link rel=&quot;stylesheetwhatever&quot; type=&quot;text/css&quot; href=&quot;whatevertheme.css&quot;&gt;</p>
 			</div>
 			<h3>HTML src Attribute</h3>
 			<p>The <strong>src</strong> attribute instructs the browser where on the server it should look for the object that’s to be presented to the user. This may be an object in the same directory, an oject somewhere else on the same server, or even an object stored on another server.</p>
@@ -102,8 +100,12 @@
 				<li>&lt;track&gt;</li>
 				<li>&lt;video&gt;</li>
 			</ul>
+			<p>Let's take a look at some syntax examples</p>
 			<div class="example">
-				<p></p>
+				<p><strong>&lt;embed&gt; Example:</strong> &lt;embed src=&quot;whateveryouwant.swf&quot;&gt;</p>
+				<p><strong>&lt;img&gt; Example:</strong> &lt;img src=&quot;helloworld.gif&quot; alt=&quot;Hello World&quot;&gt;</p>
+				<p><strong>&lt;script&gt; Example:</strong> &lt;script src=&quot;yourscript.js&quot;&gt;&lt;/script&gt;</p>
+				<p><strong>&lt;source&gt; Example:</strong>  &lt;audio controls&gt;<br> &nbsp; &lt;source src=&quot;hello.ogg&quot; type=&quot;audio/ogg&quot;&gt;<br> &nbsp; &lt;source src=&quot;world.mp3&quot; type=&quot;audio/mpeg&quot;&gt;<br> Your browser does not support the audio element.<br> &lt;/audio&gt;</p>
 			</div>
 			<h3>HTML width Attribute</h3>
 			<p>The <strong>width</strong> attribute specifies the width of the element, in pixels.</p>
@@ -114,9 +116,9 @@
 			<h3>HTML heigth Attribute</h3>
 			<p>The <strong>height</strong> attribute specifies the height of the element, in pixels.</p>
 			<div class="example">
-				<p><strong>&lt;img&gt; Example</strong>: &lt;img src=&quot;yourimage.gif&quot; alt=&quot;Your Image&quot; height=&quot;50&quot; width=&quot;50&quot;&gt;</p>
-				<p><strong>&lt;object&gt; Example</strong>: &lt;object data=&quot;example.swf&quot; height=&quot;200&quot; width=&quot;200&quot;&gt;&lt;/object&gt;</p>
-				<p><strong>&lt;embed&gt; Example</strong>: &lt;embed src=&quot;example.swf&quot; width=&quot;100&quot; height=&quot;100&quot;&gt;</p>
+				<p><strong>&lt;img&gt; Example:</strong> &lt;img src=&quot;yourimage.gif&quot; alt=&quot;Your Image&quot; height=&quot;50&quot; width=&quot;50&quot;&gt;</p>
+				<p><strong>&lt;object&gt; Example:</strong> &lt;object data=&quot;example.swf&quot; height=&quot;200&quot; width=&quot;200&quot;&gt;&lt;/object&gt;</p>
+				<p><strong>&lt;embed&gt; Example:</strong> &lt;embed src=&quot;example.swf&quot; width=&quot;100&quot; height=&quot;100&quot;&gt;</p>
 			</div>
 			<h3>HTML alt Attribute</h3>
 			<p>The <strong>alt</strong> attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).</p>
